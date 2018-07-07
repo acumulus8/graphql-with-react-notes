@@ -62,6 +62,8 @@ normally the code in the resolve function would talk to a database, but for the 
 
 NOW: that data is saved as an array of user objects containing the fields we talked about earlier. we will also need to import lodash. */
 const _ = require('lodash');/*
+NOTE: lodash is only needed when working with the hard coded date and will not be used once we start writing http requests to outside servers.
+
 lodash is used to help us crawl through our data, from one objecttype to another.
 
 NOW: in the resolve function, we want to code: */

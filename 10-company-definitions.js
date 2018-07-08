@@ -32,7 +32,7 @@ const CompanyType = new GraphQLObjectType({
 
 NOW: that we have the companyType in place, we need to relate the UserType and CompanyType together. The association between different types exactly as if it is another field. 
 
-SO: we will begin by adding the comapny to the fields of the UserType, set it to an object with the key of type and value of CompanyType. */
+SO: we will begin by adding the comapny property to the fields of the UserType, set it to an object with the key of type and value of CompanyType. */
   name: "User",
   fields: {
     id: { type: GraphQLString },
